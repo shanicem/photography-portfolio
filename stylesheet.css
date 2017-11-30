@@ -100,7 +100,7 @@ a:hover {
 /* PROFILE */
 
 .profile-div {
-  background-color: lightgrey;
+  background-color: rgb(220,220,220);
   height: 1%;
   overflow: hidden;
   margin: 2px 0;
