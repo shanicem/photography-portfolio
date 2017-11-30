@@ -98,19 +98,23 @@ a:hover {
 
 .profile-div {
   background-color: lightgrey;
-  height: 400px;
+  height: 1%;
   overflow: hidden;
-  margin: 2px;
+  margin: 2px 0;
+   border-style: solid;
+  border: thin solid black;
 }
 
 .dp-container {
   float: left;
   padding: 10px;
+  text-align: center;
 }
 
 .about-me-container {
   float: left;
   padding: 10px;
+  margin: 10px;
 }
 
 .profile-pic {
@@ -133,8 +137,7 @@ a:hover {
   font-weight: 300;
   line-height: 1.8;
   letter-spacing: .03em;
-  padding: 10px;
-  padding-right: 100px;
+  padding: 10px 30px 10px 10px;
 }
 
 
@@ -142,6 +145,8 @@ a:hover {
 .portfolio-div {
   text-align: center;
   background-color: white;
+
+ 
 }
 
 .portfolio-title {
@@ -213,7 +218,7 @@ th {
   height: 300px;
   color: black;
   display: inline-block;
-  background-color: grey;
+  background-color: white;
   text-align: center;
 }
 
@@ -235,3 +240,23 @@ th {
   text-align: left;
   margin-left: 9px;
 }
+
+/* FOOTER */
+  #footer {
+    margin-top: 2px;
+    width: 100%;
+    position: absolute;
+    height: 60px;
+    background-color: rgb(250, 240, 230);
+     border-top-style: solid;
+    border-top: thin solid black;
+  }
+
+   .footer-block {
+      margin: 18px 0;
+      color: black;
+      font-family: proxima-nova, sans-serif;
+      font-weight: 200;
+      letter-spacing: 2px;
+    }
+
