@@ -15,7 +15,7 @@ $(document).ready(function(){
 
     // update active link in menu
     scrollLink.each(function() {
-      var offset = $(this.hash).offset().top - 125;
+      var offset = $(this.hash).offset().top - 200;
 
       if (offset <= scrollbar) {
         $(this).addClass('active');
