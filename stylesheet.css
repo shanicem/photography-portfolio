@@ -15,12 +15,13 @@ h1 {
 
 .vertical-align {
   min-height: 100%;
-
   display: flex;
   align-items: center;
 }
 
+
 /* INDEX */
+
 .main-logo {
   background: url(photos/logo/HersheyRendonPhotography-02.png) no-repeat center center;
   height: 70vh;
@@ -34,6 +35,7 @@ a:hover {
 
 
 /* MENU BAR */
+
 .navbar {
   background-color: white;
   box-shadow: 0px 3px 3px #888888;
@@ -42,7 +44,7 @@ a:hover {
 }
 
 #menu {
-  display: flex; 
+  display: flex;
   font-size: small;
   font-weight: 100;
   letter-spacing: 3px;
@@ -60,7 +62,7 @@ a:hover {
 }
 
 .nav a {
- color:	rgb(192,192,192); 
+  color: rgb(192, 192, 192);
 }
 
 .nav a.active {
@@ -75,6 +77,7 @@ a:hover {
 
 
 /* SOCIAL MEDIA MENU */
+
 .social-media-links {
   padding: 25px 0;
 }
@@ -101,7 +104,7 @@ a:hover {
   height: 1%;
   overflow: hidden;
   margin: 2px 0;
-   border-style: solid;
+  border-style: solid;
   border: thin solid black;
 }
 
@@ -123,7 +126,7 @@ a:hover {
 }
 
 .about-me-title {
-   padding: 10px;
+  padding: 10px;
   font-size: 3em;
   font-weight: 600;
   text-transform: uppercase;
@@ -132,7 +135,7 @@ a:hover {
 }
 
 .about-me-text {
-    font-family: proxima-nova, sans-serif;
+  font-family: proxima-nova, sans-serif;
   font-style: normal;
   font-weight: 300;
   line-height: 1.8;
@@ -142,6 +145,7 @@ a:hover {
 
 
 /* PORTFOLIO */
+
 .portfolio-div {
   text-align: center;
   background-color: white;
@@ -150,9 +154,8 @@ a:hover {
 }
 
 .img-container {
-  height: auto;
+  display: inline-block;
   padding: 2px !important;
-  float: left;
   overflow: hidden;
   background-color: white;
   text-align: center;
@@ -166,6 +169,7 @@ a:hover {
 .img-container.vignette::after {
   content: '';
   cursor: pointer;
+  
   position: absolute;
   top: 50%;
   left: 50%;
@@ -173,8 +177,7 @@ a:hover {
   width: 120%;
   height: 120%;
   padding: 0 120% 120% 0;
-  box-shadow: inset 0px 0px 200px 60px rgba(250,250,250,0.8);
-  border-radius: 50%;
+  box-shadow: inset 0px 0px 200px 60px rgba(250, 250, 250, 0.8);
 }
 
 .photo-table {
@@ -233,22 +236,23 @@ th {
   margin-left: 9px;
 }
 
+
 /* FOOTER */
-  #footer {
-    margin-top: 2px;
-    width: 100%;
-    position: absolute;
-    height: 60px;
-    background-color: rgb(250, 240, 230);
-     border-top-style: solid;
-    border-top: thin solid black;
-  }
 
-   .footer-block {
-      margin: 18px 0;
-      color: black;
-      font-family: proxima-nova, sans-serif;
-      font-weight: 200;
-      letter-spacing: 2px;
-    }
+#footer {
+  margin-top: 2px;
+  width: 100%;
+  position: absolute;
+  height: 60px;
+  background-color: rgb(250, 240, 230);
+  border-top-style: solid;
+  border-top: thin solid black;
+}
 
+.footer-block {
+  margin: 18px 0;
+  color: black;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
