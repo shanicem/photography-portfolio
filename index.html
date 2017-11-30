@@ -17,9 +17,9 @@
   <header class="navbar fixed-top" role="banner">
     <div class="container justify-content-center">
       <nav class="nav" id="menu" role="navigation">
+        <a class="nav-item nav-link scroll active" href="#portfolio">PORTFOLIO</a>
         <a class="nav-item nav-link scroll" href="#about">PROFILE</a>
         <a class="nav-item nav-link scroll" href="#contact">CONTACT</a>
-        <a class="nav-item nav-link scroll" href="#portfolio">PORTFOLIO</a>
       </nav>
     </div>
   </header>
@@ -30,73 +30,88 @@
     </div>
   </a>
 
-  <div class="profile-div w-100" id="about">
-    <div class="dp-container col-sm-3">
-      <img class="profile-pic" src="photos/profile.jpg"></img>
-    </div>
-    <div class="about-me-container col-sm-9">
-      <div class="about-me-title display-3">
-        Hello,
-      </div>
-      <div class="about-me-text text-justify">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac sollicitudin lorem, ac viverra ligula. Curabitur id erat
-        quis velit pulvinar aliquam sed tristique elit. Fusce vitae quam consectetur, viverra tortor in, maximus tellus.
-        In hac habitasse platea dictumst. Proin dui sem, pretium vel pretium eu, fringilla eget est. Cras scelerisque porta
-        vulputate.
-      </div>
-    </div>
-  </div>
-
-  <div class="contact-div w-100" id="contact">
-    <div class="contact-text col-sm-6 d-inline-block">
-      <h1 class="display-4"> Contact me! </h1>
-      <span class="font-weight-bold"> Email </span>
-      <span> hersheyrendon@gmail.com </span>
-      <br>
-      <span class="font-weight-bold"> Phone </span>
-      <span> 604-604-6044 </span>
-      <div class="social-media-menu">
-        <div class="social-media-links">
-          <a href="https://www.facebook.com/hersheyrendonphotography/">
-            <img class="social-media-pic fb-logo" src="photos/facebook-logo.png">
-            </img>
-          </a>
-          <a href="https://www.instagram.com/hersheyrendonphotography/">
-            <img class="social-media-pic insta-logo" src="photos/insta-logo.png">
-            </img>
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="contact-image d-inline-block">
-
-    </div>
-  </div>
-
   <div class="portfolio-div w-100" id="portfolio">
-    <div class="portfolio-title display-1">
-      PORTFOLIO
-    </div>
     <div id="gallery">
       <!-- First Row -->
-      <div class="img-container col-md-6">
-        <img class="photo" src="photos/fam1.jpg">
-        </img>
-      </div>
-      <div class="img-container col-md-6">
-        <img class="photo" src="photos/fam3.jpg">
-        </img>
+      <div class="row">
+        <div class="img-container col-md-6">
+            <img class="photo" src="photos/fam1.jpg">
+            </img>
+        </div>
+        <div class="img-container col-md-6">
+          <img class="photo" src="photos/fam3.jpg">
+          </img>
+        </div>
       </div>
       <!-- Second Row -->
       <div class="img-container col-md-12">
         <img class="photo" src="photos/fam2.jpg">
         </img>
       </div>
+    </div>
+  </div>
+  <div class="modal fade" role="dialog" id="popup-modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img src='' id="modal-img">
+          </img>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <div class="profile-div w-100" id="about">
+    <div class="row vertical-align">
+      <div class="dp-container col-sm-4">
+        <img class="profile-pic" src="photos/profile.jpg"></img>
+      </div>
+      <div class="about-me-container col-sm-8">
+        <div class="about-me-title">
+          Hello,
+        </div>
+        <div class="about-me-text text-justify">
+          <p>My name is Hershey Rendon!</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac sollicitudin lorem, ac viverra ligula. Curabitur id erat
+          quis velit pulvinar aliquam sed tristique elit. Fusce vitae quam consectetur, viverra tortor in, maximus tellus.
+          In hac habitasse platea dictumst. Proin dui sem, pretium vel pretium eu, fringilla eget est. Cras scelerisque porta
+          vulputate.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="contact-div w-100" id="contact">
+    <div class="contact-text col-sm-6 d-inline-block">
+      <div class="contact-title"> CONTACT ME </div>
+      <div class="contact-details">
+        <span class="font-weight-bold"> Email </span>
+        <span> hersheyrendon@gmail.com </span>
+        <br>
+        <span class="font-weight-bold"> Phone </span>
+        <span> 604-604-6044 </span>
+        </div>
+          <div class="social-media-links">
+            <a href="https://www.facebook.com/hersheyrendonphotography/">
+            <img class="social-media-pic fb-logo" src="photos/facebook-logo.png">
+            </img>
+          </a>
+            <a href="https://www.instagram.com/hersheyrendonphotography/">
+            <img class="social-media-pic insta-logo" src="photos/insta-logo.png">
+            </img>
+          </a>
+        </div>
+      </div>
+    <div class="contact-image d-inline-block">
 
     </div>
-
   </div>
+
+
 
 
   <!-- Optional JavaScript -->

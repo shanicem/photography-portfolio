@@ -23,5 +23,16 @@ $(document).ready(function(){
       }
     })
   });
+
+  $('.img-container').hover(function() {
+    $(this).toggleClass('vignette');
+  });
+
+    $('.img-container').click(function() {
+      var src = $(this).find('.photo').attr('src');
+      $('#modal-img').attr('src', src);
+      $('#popup-modal').modal('show');
+    });
+  
 })
 
