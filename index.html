@@ -4,70 +4,89 @@
 <head>
   <link rel="stylesheet" href="stylesheet.css" />
   <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Condensed:100,400|Playfair+Display" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
     crossorigin="anonymous">
-
-
 
   <title>Hershey Rendon Photography</title>
 </head>
 
 <body>
-  <header class="navbar fixed-top" role="banner">
+  <div class="w-100">
+    <div class="banner">
+      <img class="photo" src="photos/portfolio/IMG_0363.jpg">
+      </img>
+  </div>
+  </div>
+  <header class="navbar sticky-top w-100" role="banner">
     <div class="container justify-content-center">
       <nav class="nav" id="menu" role="navigation">
-        <a class="nav-item nav-link scroll active" href="#portfolio">PORTFOLIO</a>
-        <a class="nav-item nav-link scroll" href="#about">PROFILE</a>
-        <a class="nav-item nav-link scroll" href="#contact">CONTACT</a>
+        <a class="nav-item nav-link scroll active" href="#sweet">sweet.</a>
+        <a class="nav-item nav-link scroll" href="#natural">natural.</a>
+        <a class="nav-item nav-link scroll" href="#timeless">timeless.</a>
+        <a class="nav-item nav-link scroll" href="#about">meet hershey.</a>
       </nav>
     </div>
   </header>
 
-  <a class="scroll" href="#portfolio">
-    <div class="main-logo">
-
+  <div class="w-100" id="sweet">
+    <div class="col-md-2 offset-md-2 title">
+      sweet.
     </div>
-  </a>
+    <div class="img-container col-md-3 offset-md-1">
+      <img class="photo" src="photos/portfolio/IMG_5588.jpg">
+      </img>
+    </div>
+    <div class="img-container col-md-3">
+      <img class="photo" src="photos/portfolio/IMG_5588.jpg">
+      </img>
+    </div>
+    <div class="img-container col-md-3">
+      <img class="photo" src="photos/portfolio/IMG_5588.jpg">
+      </img>
+    </div>
+  </div>
 
-  <div class="portfolio-div w-100" id="portfolio">
-    <div id="gallery">
-      <div class="row">
-        <div class="img-container col-md-6">
-          <img class="photo" src="photos/portfolio/IMG_0363.jpg">
-          </img>
-        </div>
-        <div class="img-container col-md-6">
-          <img class="photo" src="photos/portfolio/IMG_0250.jpg">
-          </img>
-        </div>
+  <div class="w-100" id="natural">
+    <div class="col-md-2 offset-md-2 title">
+      natural.
+    </div>
+    <div class="img-container col-md-3 offset-md-1">
+      <img class="photo" src="photos/portfolio/IMG_7165.jpg">
+      </img>
+    </div>
+    <div class="img-container col-md-3">
+      <img class="photo" src="photos/portfolio/IMG_7165.jpg">
+      </img>
+    </div>
+    <div class="img-container col-md-3">
+      <img class="photo" src="photos/portfolio/IMG_7165.jpg">
+      </img>
+    </div>
+  </div>
+
+  <div class="w-100" id="timeless">
+    <div class="col-md-2 offset-md-2 title">
+      timeless.
+    </div>
+    <div class="row">
+      <div class="img-container col-md-3 offset-md-1">
+        <img class="photo" src="photos/portfolio/IMG_9320.jpg">
+        </img>
       </div>
-      <div class="row">
-        <div class="img-container col-md-4">
-          <img class="photo" src="photos/portfolio/IMG_5588.jpg">
-          </img>
-        </div>
-        <div class="img-container col-md-4">
-          <img class="photo" src="photos/portfolio/IMG_8410.jpg">
-          </img>
-        </div>
-        <div class="img-container col-md-4">
-          <img class="photo" src="photos/portfolio/IMG_9320.jpg">
-          </img>
-        </div>
+      <div class="img-container col-md-3">
+        <img class="photo" src="photos/portfolio/IMG_9320.jpg">
+        </img>
       </div>
-      <div class="row">
-        <div class="img-container col-md-6">
-          <img class="photo" src="photos/portfolio/IMG_0257.jpg">
-          </img>
-        </div>
-        <div class="img-container col-md-6">
-          <img class="photo" src="photos/portfolio/IMG_9716-2.jpg">
-          </img>
-        </div>
+      <div class="img-container col-md-3">
+        <img class="photo" src="photos/portfolio/IMG_9320.jpg">
+        </img>
       </div>
     </div>
   </div>
+
+
   <div class="modal fade" role="dialog" id="popup-modal">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -80,16 +99,12 @@
   </div>
 
   <div class="profile-div w-100" id="about">
+    <div class="col-md-9 offset-md-2 title">
+      about Hershey.
+    </div>
     <div class="row vertical-align">
-      <div class="dp-container col-sm-4">
-        <img class="profile-pic" src="photos/profile.jpg"></img>
-      </div>
-      <div class="about-me-container col-sm-7">
-        <div class="about-me-title">
-          Hello,
-        </div>
+      <div class="about-me-container col-md-9 offset-md-1">
         <div class="about-me-text text-justify">
-          <p>My name is Hershey Rendon!</p>
           <p>
             I have to say I'm not fond of writing things like these but I love hearing other people's stories. I think that's one of
             the things that really draw me to photography. I get to see your story through my lens and then retell it in
@@ -113,31 +128,29 @@
 
 
 
-  <div class="contact-div w-100" id="contact">
-    <div class="contact-text d-inline-block">
-      <div class="contact-title"> CONTACT ME </div>
-      <div class="contact-details col-sm-12">
+  <div class="contact-div" id="contact">
+    <div class="col-md-9 offset-md-2 title">
+      contact Hershey.
+    </div>
+    <row>
+      <div class="contact-details col-sm-9 offset-md-1">
         <span class="font-weight-bold"> Email </span>
         <span> hersheyrendonphoto@gmail.com </span>
-        <br>
-      </div>
-      <div class="social-media-links">
-        <a href="https://www.facebook.com/hersheyrendonphotography/">
+        <span class="social-media-links">
+          <a href="https://www.facebook.com/hersheyrendonphotography/">
             <img class="social-media-pic fb-logo" src="photos/facebook-logo.png">
             </img>
           </a>
-        <a href="https://www.instagram.com/hersheyrendonphotography/">
+          <a href="https://www.instagram.com/hersheyrendonphotography/">
             <img class="social-media-pic insta-logo" src="photos/insta-logo.png">
             </img>
           </a>
+        </span>
       </div>
-    </div>
-    <div class="contact-image d-inline-block">
-
-    </div>
+    </row>
   </div>
 
-  <div id="footer">
+  <div id="footer" class="w-100">
     <div class="container">
       <p class="copyright-text footer-block">
         © HERSHEY RENDON

@@ -23,10 +23,7 @@ h1 {
 /* INDEX */
 
 .main-logo {
-  background: url(photos/logo/HersheyRendonPhotography-02.png) no-repeat center center;
-  height: 70vh;
-  width: 100%;
-  margin-top: 60px;
+  background: url(photos/logo/HersheyRendonPhotography-02.png);
 }
 
 a:hover {
@@ -36,11 +33,18 @@ a:hover {
 
 /* MENU BAR */
 
+.banner {
+  height: 400px;
+  overflow: hidden;
+}
+
 .navbar {
   background-color: white;
   box-shadow: 0px 3px 3px #888888;
+  /*
   border-top-style: solid;
   border-top: thick solid rgb(250, 240, 230);
+  */
 }
 
 #menu {
@@ -76,36 +80,16 @@ a:hover {
 }
 
 
-/* SOCIAL MEDIA MENU */
 
-.social-media-links {
-  padding: 25px 0;
-}
-
-.fb-logo {
-  height: 28px;
-}
-
-.insta-logo {
-  height: 30px;
-}
-
-.social-media-pic {
-  margin: 0 auto;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-}
 
 
 /* PROFILE */
 
 .profile-div {
-  background-color: rgb(220,220,220);
+  background-color: white;
   height: 1%;
   overflow: hidden;
   margin: 2px 0;
-  border-style: solid;
-  border: thin solid black;
 }
 
 .dp-container {
@@ -116,6 +100,7 @@ a:hover {
 
 .about-me-container {
   float: left;
+  background-color: rgb(252, 235, 237);
   padding: 10px;
   margin: 10px;
 }
@@ -140,11 +125,20 @@ a:hover {
   font-weight: 300;
   line-height: 1.8;
   letter-spacing: .03em;
-  padding: 10px 30px 10px 10px;
+  padding: 18px 30px 15px 10px;
 }
 
 
 /* PORTFOLIO */
+
+.title {
+  top: 35px;
+  z-index: 1;
+  color: black;
+  font-family: 'Homemade Apple', cursive;
+  font-size: 3em;
+  letter-spacing: .03em;
+}
 
 .portfolio-div {
   text-align: center;
@@ -210,11 +204,8 @@ th {
 /* CONTACT ME */
 
 .contact-div {
-  height: 300px;
+  padding: 25px 0;
   color: black;
-  display: inline-block;
-  background-color: white;
-  text-align: center;
 }
 
 .contact-title {
@@ -227,13 +218,38 @@ th {
 }
 
 .contact-details {
+  vertical-align: middle;
   font-family: proxima-nova, sans-serif;
+  padding: 15px;
   font-style: normal;
   font-weight: 300;
   line-height: 1.8;
   letter-spacing: .03em;
   text-align: left;
   margin-left: 9px;
+  background-color: rgb(252, 235, 237)
+}
+
+/* SOCIAL MEDIA MENU */
+
+.social-media-links {
+  float: right;
+  padding: 0 25px;
+  vertical-align: middle;
+}
+
+.fb-logo {
+  height: 28px;
+}
+
+.insta-logo {
+  height: 30px;
+}
+
+.social-media-pic {
+  margin: 0 auto;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 
@@ -241,10 +257,9 @@ th {
 
 #footer {
   margin-top: 2px;
-  width: 100%;
   position: absolute;
   height: 60px;
-  background-color: rgb(250, 240, 230);
+  background-color: rgb(248, 247, 247);
   border-top-style: solid;
   border-top: thin solid black;
 }
